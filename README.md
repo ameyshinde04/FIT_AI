@@ -18,3 +18,6 @@ View your app in AI Studio: https://ai.studio/apps/43aaacc5-7ad9-4b78-8d4b-66d69
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+# FIT_AI
+Your Virtual Fitness AI Trainer 
