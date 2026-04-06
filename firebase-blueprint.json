@@ -1,0 +1,45 @@
+{
+  "entities": {
+    "users": {
+      "title": "User Profile",
+      "description": "Stores user fitness profile and settings.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "Firebase Auth UID" },
+        "age": { "type": "number" },
+        "height": { "type": "number" },
+        "weight": { "type": "number" },
+        "gender": { "type": "string" },
+        "preference": { "type": "string" },
+        "activityLevel": { "type": "string" },
+        "goal": { "type": "string" },
+        "ageGroup": { "type": "string" }
+      },
+      "required": ["uid", "age", "height", "weight", "gender", "preference", "activityLevel", "goal", "ageGroup"]
+    },
+    "workouts": {
+      "title": "Workout Record",
+      "description": "Stores individual workout sessions.",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "date": { "type": "string" },
+        "durationMinutes": { "type": "number" },
+        "exercises": { "type": "array", "items": { "type": "string" } },
+        "totalReps": { "type": "number" },
+        "ageGroup": { "type": "string" }
+      },
+      "required": ["uid", "date", "durationMinutes", "exercises", "totalReps", "ageGroup"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "users",
+      "description": "User profile document"
+    },
+    "/workouts/{workoutId}": {
+      "schema": "workouts",
+      "description": "Workout record document"
+    }
+  }
+}

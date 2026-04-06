@@ -1,0 +1,8 @@
+{
+  "name": "FIT_AI",
+  "description": "An AI-powered fitness trainer that uses pose detection to guide users through age-appropriate exercises with real-time feedback.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
