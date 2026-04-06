@@ -1,23 +1,61 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🚀 Run and deploy your FIT_AI app
 
-# Run and deploy your AI Studio app
+This contains everything you need to run your app locally and access it online.
 
-This contains everything you need to run your app locally.
+### 🌐 View your live app:
 
-View your app in AI Studio: https://ai.studio/apps/43aaacc5-7ad9-4b78-8d4b-66d69c05f18d
+👉 https://fit-ai-beta.vercel.app
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🖥️ Run Locally
 
+### Prerequisites:
+
+* Node.js
+
+### Steps:
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
 
-# FIT_AI
-Your Virtual Fitness AI Trainer 
+```
+npm install
+```
+
+2. Set the `GEMINI_API_KEY` in `.env.local` to your Gemini API key
+
+3. Run the app:
+
+```
+npm run dev
+```
+
+---
+
+## 🏋️‍♂️ FIT_AI
+
+### Your Virtual Fitness AI Trainer
+
+An AI-powered fitness assistant that provides:
+
+* 🏋️ Personalized workout plans
+* 🥗 Smart diet recommendations
+* 📊 Progress tracking
+* 🤖 AI-based fitness insights
+
+---
+
+## ⚙️ Tech Stack
+
+* React + TypeScript
+* Firebase
+* Gemini API
+* Vercel
+
+---
+
+## 🚀 Deployment
+
+This project is deployed using Vercel with automatic CI/CD from GitHub.
+
+---
